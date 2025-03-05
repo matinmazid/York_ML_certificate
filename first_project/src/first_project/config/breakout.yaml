@@ -1,0 +1,40 @@
+breakout_spec: >
+  instruction
+    -----------
+    Game Overview:
+    "breakout" was a popular game in the early 80s. We want a similiar game, but instead of 
+    colorful bars at the top, we want to have a moving bar at the top with a gap. The player wins
+    if he or she can get the ball through the gap by bouncing it off a bumper
+
+    Game Elements:
+
+      The game screen:
+        The screen consists of a black background, an orange bouncing ball, a grey band with a gap
+        at the top and the gap moves back and forth. There is a yellow bumper that moves back and
+        forth at the bottom.
+      
+      Bar at the top:
+        The bar at the top is grey and has a gap 3 times the diameter of the ball. The gap slides back 
+        and forth at the same pace as the ball. Its thickness is equal to the diameter of the ball
+        When the ball goes through the gap a pleasant happy trumpet sounds is played.
+      
+      ball:
+        The ball is orange and bounces like a tennis ball. It bounces off the sides and the band
+        at the top as well as a shorter bumper at the bottom.
+      
+      bumper:
+        There is a yellow bumper at the bottom its length is 5 times the diamter of the ball.
+        Its thickness is equal to the diameter of the ball.
+    
+    Mechanics Used in the game:
+
+      Ball movement:
+        The moves through space with no gravity or friction at a constant speed. When it hits an
+        edge, the bumper or the bar at the top it bounces away at an equal and opposite angle
+      
+      Collision detection:
+        The ball will bounce away when the edge of the ball is equal to the edge of the bar, the screen 
+        edge or the bumper.
+
+    Using the generated code, check and correct for errors, syntax errors, conflicting versions, missing 
+    dependencies.

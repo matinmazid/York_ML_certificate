@@ -1,0 +1,36 @@
+coding_task:
+  description: >
+    You will write python code for python 3.x using the below instructions
+    
+    {game_spec}
+      
+  expected_output: >
+    your final answer will be the full python code as well as a requirements.txt
+    with specified versions for required module
+  agent: senior_python_developer
+
+qa_task:
+  description: >
+    you will write python code to generate a game to fit the following instructions
+
+    {game_spec}
+
+    Using the generated code, check and correct for errors, syntax errors, conflicting versions, missing 
+    dependencies.
+  expected_output: >
+    Your Final answer must be the full python code, only the python code and requirements.txt, which 
+    should have non conflicting and compatible versions
+  agent: qa_lead
+
+evaluation_task: 
+  description: >
+    you will help create a game in python following the below instructions
+
+    {game_spec}
+
+    You will look over the code to insure that it is complete and does the job that it is supposed to do.
+
+  expected_output: >
+    Your Final answer must be the full python code, only the python code and requirements.txt, which 
+    should have non conflicting and compatible versions and nothing else
+
