@@ -15,7 +15,8 @@ breakout_spec: >
       
       Bar at the top:
         The bar at the top is grey and has a gap 3 times the diameter of the ball. The gap slides back 
-        and forth at the same pace as the ball. Its thickness is equal to the diameter of the ball
+        and forth  entire length of the screen at the same pace as the ball. 
+        Its thickness is equal to the diameter of the ball
         When the ball goes through the gap a pleasant happy trumpet sounds is played.
       
       ball:
@@ -29,8 +30,8 @@ breakout_spec: >
     Mechanics Used in the game:
 
       Ball movement:
-        The moves through space with no gravity or friction at a constant speed. When it hits an
-        edge, the bumper or the bar at the top it bounces away at an equal and opposite angle
+        The moves through space with no gravity or friction at a constant speed. When it hits the 
+        edge of the screen, the bumper or the bar at the top it bounces away at an equal and opposite angle
       
       Collision detection:
         The ball will bounce away when the edge of the ball is equal to the edge of the bar, the screen 

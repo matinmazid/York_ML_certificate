@@ -29,7 +29,7 @@ evaluation_task:
     {game_spec}
 
     You will look over the code to insure that it is complete and does the job that it is supposed to do.
-
+  agent: developer_lead
   expected_output: >
     Your Final answer must be the full python code, only the python code and requirements.txt, which 
     should have non conflicting and compatible versions and nothing else
